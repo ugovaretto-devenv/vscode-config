@@ -8,5 +8,7 @@
         "VulkanIncludePath": "${env:VULKAN_ROOT}/x86_64/include/vulkan",
         "VulkanLibPath": "${env:VULKAN_ROOT}/x86_64/lib"
     },
-    "cpp_standard": "c++17"
+    "cpp": {
+        "std": "c++17"
+    }
 }
