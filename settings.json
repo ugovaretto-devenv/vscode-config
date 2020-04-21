@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    
+    "vulkan_paths": {
+        "VulkanRoot": "${env:VULKAN_ROOT}",
+        "VulkanIncludePath": "${env:VULKAN_ROOT}/x86_64/include/vulkan",
+        "VulkanLibPath": "${env:VULKAN_ROOT}/x86_64/lib"
+    },
+    "cpp_standard": "c++17"
+}
