@@ -21,9 +21,14 @@
                 "-o",
                 "${fileDirname}/../build/${fileBasenameNoExtension}.exe"
             ],
-            "problemMatcher": [
-                "$gcc"
-            ],
+            "problemMatcher": { 
+                "base": "$gcc", 
+                "fileLocation": [ "absolute" ],
+                "pattern": { 
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(.*)$", 
+                             "file": 1, "line": 2, "column": 3, "message": 4 
+                } 
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -48,9 +53,14 @@
                 "-o",
                 "${fileDirname}/../build/${fileBasenameNoExtension}.exe"
             ],
-            "problemMatcher": [
-                "$gcc"
-            ],
+            "problemMatcher": { 
+                "base": "$gcc", 
+                "fileLocation": [ "absolute" ],
+                "pattern": { 
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(.*)$", 
+                             "file": 1, "line": 2, "column": 3, "message": 4 
+                } 
+            },
             "group": {
                 "kind": "build",
                 "isDefault": true
